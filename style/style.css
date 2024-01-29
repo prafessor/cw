@@ -1,0 +1,64 @@
+*  {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.dice {
+    width: 100px;
+    height: 100px;
+    background-color: #e8e8e8;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+}
+.dice-1 {
+    justify-content: center;
+    align-items: center;
+}
+.dice__point {
+    width: 17.5px;
+    height: 17.5px;
+    background-color: #343434;
+    border-radius: 50%;
+}
+.dice-2 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+.dice__point-c {
+    align-self: center;
+}
+.dice__point-e {
+    align-self: flex-end;
+}
+.dice-3 {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dice-4 {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.dice-5 {
+}
+.dice-6 {
+}
+.dice__point-mr {
+    margin-right: 17.5px;
+}
+.dice__point-ml {
+    margin-left: 17.5px;
+}
